@@ -1,0 +1,24 @@
+{
+  "name": "projektabschnitt29",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/john-smilga/setup-files-flexbox-backroads-new-design.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/john-smilga/setup-files-flexbox-backroads-new-design/issues"
+  },
+  "homepage": "https://github.com/john-smilga/setup-files-flexbox-backroads-new-design#readme",
+  "prefix:css": "postcss --use autoprefixer -o css/style.prefix.css css/style.concat.css",
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "cross-env": "^7.0.3"
+  }
+}
